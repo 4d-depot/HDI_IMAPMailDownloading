@@ -430,8 +430,7 @@
 							},
 							"width": 194,
 							"dataSource": "DisplayEmailAddresses(This:C1470.from)",
-							"enterable": false,
-							"method": "ObjectMethods/Column1.4dm"
+							"enterable": false
 						},
 						{
 							"header": {
@@ -531,7 +530,7 @@
 					"left": 470,
 					"width": 547,
 					"height": 16,
-					"dataSource": "String:C10(Date:C102(Form:C1466.mail.sendAt);Date RFC 1123:K1:11;Time:C179(Form:C1466.mail.sendAt))",
+					"dataSource": "String:C10(Date:C102(Form:C1466.mail.sendAt); Date RFC 1123:K1:11; Time:C179(Form:C1466.mail.sendAt))",
 					"dragging": "none",
 					"dropping": "custom",
 					"events": [
@@ -570,5 +569,12 @@
 			}
 		}
 	],
-	"geometryStamp": 9
+	"geometryStamp": 19,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
 }
